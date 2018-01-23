@@ -82,13 +82,32 @@ a:hover, a:active, a:focus {
 }
 
 .content {
+	
+}
 
-	padding: 10px 0;
+.about{
+	background-color: #f0f0f0;
+	height: 280px;
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	z-index: 0;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+
+.about .column{
+	flex: 1;
+	margin: 2px;
+	padding: 10px;
+	&:first-child { margin-left: 0; }
+	&:last-child { margin-right: 0; }
 }
 
 .footer {
 	padding: 10px 0;
-	background-color: #CCC49F;
+	background-color: #d8d8d8;
 }
 
 
