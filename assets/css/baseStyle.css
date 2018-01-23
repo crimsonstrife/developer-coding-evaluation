@@ -1,0 +1,108 @@
+@charset "utf-8";
+body {
+	font-family: "effraregular";
+	font-size: 16px;
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+a img { 
+	border: none;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 100%;
+	background-color: #FFF;
+	margin: 0 auto; 
+}
+
+.header {
+	background:url(../images/FifthThirdBank1740x480.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #0c5990;
+	height: 478px;
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	z-index: 0;
+}
+
+.colorOverlay{
+	background: rgba(12,89,144,0.80);
+	height: 100%;
+	width: 100%;
+	color: #0c5990;
+	opacity: 80%;
+	z-index: 1;
+}
+
+.logo{
+	background:url(../logos/logo-cardinal.png);
+	background-repeat: no-repeat;
+	height: 8.5%;
+	max-width: 140px;
+	margin-left: 5%;
+	z-index: 2;
+}
+
+.subtitle{
+	margin-left: 10.5%;
+	margin-right: 10.5%;
+	font: "effraregular";
+	font-weight: bold;
+	color: #FFF;
+	font-size: 2.1em;
+	text-align: center;
+}
+
+.content {
+
+	padding: 10px 0;
+}
+
+.footer {
+	padding: 10px 0;
+	background-color: #CCC49F;
+}
+
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
