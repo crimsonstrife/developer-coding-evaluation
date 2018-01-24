@@ -1,1 +1,4 @@
 *.db
+*.sqlite
+.vs/ProjectSettings.json
+*.config

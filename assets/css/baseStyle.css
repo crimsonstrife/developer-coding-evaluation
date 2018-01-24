@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 body {
 	font-family: "effraregular";
 	font-size: 16px;
@@ -125,48 +125,90 @@ a:hover, a:active, a:focus {
 	background-repeat: no-repeat;
 }
 
-.clients{
-	background-color: #ffffff;
-	height: 560px;
-	width: 100%;
-	max-width: 100%;
-	overflow: visible;
-	z-index: 0;
-	display: flex;
-	flex-flow: wrap;
-	justify-content: center;
+.abt-client {
+    background-color: #f0f0f0;
+    height: 12%;
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
 }
-.clients .grid{
-	display: grid;
-  	grid-gap: 2%;
-	padding-left: 15%;
-	padding-right: 15%;
-  	grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+
+.clients {
+    background-color: transparent;
+    height: 560px;
+    max-width: 100%;
+    overflow: visible;
+    z-index: 0;
+    display: flex;
+    flex-flow: wrap;
+    padding-left: 5%;
 }
-.grid>div:first-child {
-	grid-column: span 4;
-	background-color: #383d49;
-	color: #FFF;
-	padding-left: 10%;
-	padding-bottom: 5%;
-	padding-top: 7%;
-	padding-right: 10%;
+.clients .grid {
+    display: block;
+    width: 100%;
 }
-.grid>* {
-	grid-column: span 2;
-	align-text: center;
-	background-color: #ffffff;
-	border: medium;
-	border-color: #eaebed;
-	z-index: 3;
-	box-shadow: 2px 2px grey;
+.grid > div:first-child {
+    background-color: #383d49;
+    color: #FFF;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    width: 35%;
+    height: 164px;
+    margin-right: 1%;
+    margin-bottom: 0px;
+}
+.grid > div:first-child > p {
+    margin-bottom: 0px;
+    padding-right: 15%;
+    -webkit-margin-after: 0px;
+    font-size: 0.85em;
+}
+.grid > div:first-child > h3 {
+    padding-top: 15px;
+}
+.grid > * {
+    display: table;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: left;
+    background-color: #ffffff;
+    z-index: 3;
+    box-shadow: 1px 1px rgba(128, 128, 128, 0.20);
+    border: 1px solid rgba(128, 128, 128, 0.20);
+    border-radius: 2px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 8px;
 }
 .grid>*>img {
 	display: block;
+    vertical-align: middle;
 	margin: auto;
-	margin-top: 30%;
+	margin-top: 25%;
+    margin-bottom: 25%;
+    height: auto;
+    width: auto;
 }
+#client {
 
+}
+#skans {
+    margin-top: 40%;
+}
+#fithtrd {
+    margin-top: 35%;
+}
+#christ {
+    margin-top: 35%;
+}
+#PNG {
+    margin-top: 35%;
+}
 
 .footer {
 	padding: 10px 0;
