@@ -210,6 +210,47 @@ a:hover, a:active, a:focus {
     margin-top: 35%;
 }
 
+.presentation {
+    background-color: lightgray;
+    height: 340px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: 0;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.half {
+    width: 50%;
+    height: 100%;
+}
+#ls {
+    float: left;
+}
+#rs {
+    float: right;
+}
+#gojo {
+    background-color: rgb(233,233,233);
+    max-height: 463px;
+}
+#gojo-img {
+    max-height:315px; 
+    width: auto;
+    margin-left: 13%;
+    margin-top: 0.2%;
+}
+#background{
+    background-image: url(../images/pic-gojo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 463px;
+    width: 100%;
+    height: auto;
+    margin-top: 2.5%;
+}
+
 .footer {
 	padding: 10px 0;
 	background-color: #d8d8d8;
