@@ -1,0 +1,273 @@
+﻿@charset "utf-8";
+body {
+	font-family: "effraregular";
+	font-size: 16px;
+	background-color: #42413C;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+a img { 
+	border: none;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	text-decoration: none;
+}
+
+.container {
+	max-width: 100%;
+	background-color: #FFF;
+	margin: 0 auto; 
+}
+
+.header {
+	background:url(../images/FifthThirdBank1740x480.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #0c5990;
+	height: 478px;
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	z-index: 0;
+}
+
+.colorOverlay{
+	background: rgba(12,89,144,0.80);
+	height: 100%;
+	width: 100%;
+	color: #0c5990;
+	opacity: 80%;
+	z-index: 1;
+}
+
+.logo{
+	background:url(../logos/logo-cardinal.png);
+	background-repeat: no-repeat;
+	height: 8.5%;
+	max-width: 140px;
+	margin-left: 5%;
+	z-index: 2;
+}
+
+.subtitle{
+	margin-left: 10.5%;
+	margin-right: 10.5%;
+	font: "effraregular";
+	font-weight: bold;
+	color: #FFF;
+	font-size: 2.1em;
+	text-align: center;
+}
+
+.content {
+	
+}
+
+.about{
+	background-color: #f0f0f0;
+	height: 280px;
+	width: 100%;
+	max-width: 100%;
+	overflow: hidden;
+	z-index: 0;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+
+.about .column{
+	flex: 1;
+	margin: 2px;
+	max-width: 20%;
+	padding: 10px;
+	padding-left: 0px !important;
+	margin-left: 0px !important;
+}
+
+.svg {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+}
+#atom {
+	background-image: url(../icons/icon-bi.svg);
+	background-repeat: no-repeat;
+}
+#app {
+	background-image: url(../icons/icon-appdev.svg);
+	background-repeat: no-repeat;
+}
+#bulb {
+	background-image: url(../icons/icon-ba.svg);
+	background-repeat: no-repeat;
+}
+
+.abt-client {
+    background-color: #f0f0f0;
+    height: 12%;
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+}
+
+.clients {
+    background-color: transparent;
+    height: 560px;
+    max-width: 100%;
+    overflow: visible;
+    z-index: 0;
+    display: flex;
+    flex-flow: wrap;
+    padding-left: 5%;
+}
+.clients .grid {
+    display: block;
+    width: 100%;
+}
+.grid > div:first-child {
+    background-color: #383d49;
+    color: #FFF;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    width: 35%;
+    height: 164px;
+    margin-right: 1%;
+    margin-bottom: 0px;
+}
+.grid > div:first-child > p {
+    margin-bottom: 0px;
+    padding-right: 15%;
+    -webkit-margin-after: 0px;
+    font-size: 0.85em;
+}
+.grid > div:first-child > h3 {
+    padding-top: 15px;
+}
+.grid > * {
+    display: table;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: left;
+    background-color: #ffffff;
+    z-index: 3;
+    box-shadow: 1px 1px rgba(128, 128, 128, 0.20);
+    border: 1px solid rgba(128, 128, 128, 0.20);
+    border-radius: 2px;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 8px;
+}
+.grid>*>img {
+	display: block;
+    vertical-align: middle;
+	margin: auto;
+	margin-top: 25%;
+    margin-bottom: 25%;
+    height: auto;
+    width: auto;
+}
+#client {
+
+}
+#skans {
+    margin-top: 40%;
+}
+#fithtrd {
+    margin-top: 35%;
+}
+#christ {
+    margin-top: 35%;
+}
+#PNG {
+    margin-top: 35%;
+}
+
+.presentation {
+    background-color: lightgray;
+    height: 340px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: 0;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.half {
+    width: 50%;
+    height: 100%;
+}
+#ls {
+    float: left;
+}
+#rs {
+    float: right;
+}
+#gojo {
+    background-color: rgb(233,233,233);
+    max-height: 463px;
+}
+#gojo-img {
+    max-height:315px; 
+    width: auto;
+    margin-left: 13%;
+    margin-top: 0.2%;
+}
+#background{
+    background-image: url(../images/pic-gojo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 463px;
+    width: 100%;
+    height: auto;
+    margin-top: 2.5%;
+}
+
+.footer {
+	padding: 10px 0;
+	background-color: #d8d8d8;
+}
+
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
