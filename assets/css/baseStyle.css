@@ -100,10 +100,73 @@ a:hover, a:active, a:focus {
 .about .column{
 	flex: 1;
 	margin: 2px;
+	max-width: 20%;
 	padding: 10px;
-	&:first-child { margin-left: 0; }
-	&:last-child { margin-right: 0; }
+	padding-left: 0px !important;
+	margin-left: 0px !important;
 }
+
+.svg {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-color: transparent;
+}
+#atom {
+	background-image: url(../icons/icon-bi.svg);
+	background-repeat: no-repeat;
+}
+#app {
+	background-image: url(../icons/icon-appdev.svg);
+	background-repeat: no-repeat;
+}
+#bulb {
+	background-image: url(../icons/icon-ba.svg);
+	background-repeat: no-repeat;
+}
+
+.clients{
+	background-color: #ffffff;
+	height: 560px;
+	width: 100%;
+	max-width: 100%;
+	overflow: visible;
+	z-index: 0;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+}
+.clients .grid{
+	display: grid;
+  	grid-gap: 2%;
+	padding-left: 15%;
+	padding-right: 15%;
+  	grid-template-columns: repeat(auto-fit, minmax(100px, 2fr));
+}
+.grid>div:first-child {
+	grid-column: span 4;
+	background-color: #383d49;
+	color: #FFF;
+	padding-left: 10%;
+	padding-bottom: 5%;
+	padding-top: 7%;
+	padding-right: 10%;
+}
+.grid>* {
+	grid-column: span 2;
+	align-text: center;
+	background-color: #ffffff;
+	border: medium;
+	border-color: #eaebed;
+	z-index: 3;
+	box-shadow: 2px 2px grey;
+}
+.grid>*>img {
+	display: block;
+	margin: auto;
+	margin-top: 30%;
+}
+
 
 .footer {
 	padding: 10px 0;
