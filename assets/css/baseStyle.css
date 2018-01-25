@@ -1,11 +1,13 @@
 ﻿@charset "utf-8";
 body {
-	font-family: "effraregular";
-	font-size: 16px;
-	background-color: #42413C;
-	margin: 0;
-	padding: 0;
-	color: #000;
+    font-family: "effraregular";
+    font-size: 16px;
+    background-color: #42413C;
+    margin: 0;
+    padding: 0;
+    color: #000;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
