@@ -43,7 +43,7 @@ a:hover, a:active, a:focus {
 }
 
 .header {
-	background:url(../images/FifthThirdBank1740x480.jpg);
+	background:url(../images/pic-header-bg.jpg);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -303,6 +303,18 @@ a:hover, a:active, a:focus {
     background-size: cover;
     max-height: 550px;
     width: 100%;
+}
+
+.contact {
+    background-color: rgb(238, 238, 238);
+    height: 500px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: 0;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 
 .footer {
