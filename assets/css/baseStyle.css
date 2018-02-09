@@ -345,6 +345,11 @@ form {
     display: flex;
     flex-flow: wrap;
     justify-content: center;
+    padding: 70px;
+}
+
+#background-contact {
+    display: flex;
 }
 
 .footer {
@@ -433,15 +438,15 @@ form {
     color: black;
 }
 #contact-btn {
-    border-radius: 4px;
     background-color: rgb(5, 134, 211);
-    border: none;
-    padding: 2.5%;
     width: 20%;
     font-size: 0.85em;
-	font-family: "effraregular";
-	float: left;
-	margin-left: 2%;
+    font-family: "effraregular";
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    border: 2px solid #D8D8D8;
+    margin: 0px;
 }
 
 #contact-btn span {
@@ -449,18 +454,33 @@ form {
     display: inline-block;
     position: relative;
 }
-.inqueryform{
-	font-family: "effraregular";
-	height: 500px;
+.inqueryform {
+    font-family: "effraregular";
+    height: 350px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
-.textbox{
-	font-family: "effraregular";
-	height: 7%;
-	padding-left: 7.5%;
-	margin-bottom: 3%;
+.textbox {
+    font-family: "effraregular";
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    border: 2px solid #D8D8D8;
 }
-.messagebox{
-	font-family: "effraregular";
-	padding-top: 5%;
-	padding-left: 5%;
+.messagebox {
+    font-family: "effraregular";
+    padding: 10px;
+    border-radius: 5px;
+    border-style: none;
+    border: 2px solid #D8D8D8;
+}
+#map {
+    overflow: hidden;
+    height: 110px;
+    width: 110px;
+    border-radius: 10px;
+    border: 1px solid #9c9c9c;
 }
