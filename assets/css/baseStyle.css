@@ -73,7 +73,7 @@ form {
 }
 
 .header {
-	background:url(../images/pic-header-bg.jpg);
+	background:url(../images/pic-hero.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -86,11 +86,10 @@ form {
 }
 
 .colorOverlay{
-	background: rgba(12,89,144,0.80);
+	background: rgba(12,89,144,0.0);
 	height: 100%;
 	width: 100%;
 	color: #0c5990;
-	opacity: 80%;
 	z-index: 1;
 }
 
@@ -217,6 +216,9 @@ form {
     float: left;
     margin: 8px;
 }
+.grid {
+
+}
 .grid>*>img {
 	display: block;
     vertical-align: middle;
@@ -253,6 +255,30 @@ form {
     flex-flow: wrap;
     justify-content: center;
 }
+
+.description {
+    display: flex;
+    flex-direction: column;
+    padding: 130px 0 0 50px;
+    width: 250px;
+    color: white;
+}
+
+.description a {
+    width: 120px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-family: "efframedium";
+}
+
+.description p {
+    font-family: "effralight";
+    font-size: 1.1em;
+}
+
 .half {
     width: 50%;
     height: 100%;
@@ -328,7 +354,7 @@ form {
 }
 
 #background-chhn {
-    background-image: url(../images/pic-chhn-bg-real.png);
+    background-image: url(../images/pic-chhn-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 550px;
