@@ -63,7 +63,12 @@ form {
 	background-color: #FFF;
 	margin: 0 auto; 
 }
-
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+}
 .divider{
     position: relative;
     top: 15%;
@@ -73,12 +78,12 @@ form {
 }
 
 .header {
-	background:url(../images/pic-header-bg.jpg);
+	background:url(../images/pic-hero.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #0c5990;
-	height: 478px;
+	height: 475px;
 	width: 100%;
 	max-width: 100%;
 	overflow: hidden;
@@ -86,11 +91,10 @@ form {
 }
 
 .colorOverlay{
-	background: rgba(12,89,144,0.80);
+	background: rgba(12,89,144,0.0);
 	height: 100%;
 	width: 100%;
 	color: #0c5990;
-	opacity: 80%;
 	z-index: 1;
 }
 
@@ -132,7 +136,7 @@ form {
 .about .column{
 	flex: 1;
 	margin: 2px;
-	max-width: 20%;
+	max-width: 12%;
 	padding: 10px;
 	padding-left: 0px !important;
 	margin-left: 0px !important;
@@ -185,7 +189,7 @@ form {
     padding-left: 5%;
     padding-top: 1%;
     padding-bottom: 1%;
-    padding-right: 5%;
+    padding-right: 3%;
     width: 35%;
     height: 164px;
     margin-right: 1%;
@@ -217,6 +221,9 @@ form {
     float: left;
     margin: 8px;
 }
+.grid {
+
+}
 .grid>*>img {
 	display: block;
     vertical-align: middle;
@@ -244,7 +251,6 @@ form {
 
 .presentation {
     background-color: lightgray;
-    height: 340px;
     width: 100%;
     max-width: 100%;
     overflow: hidden;
@@ -253,6 +259,30 @@ form {
     flex-flow: wrap;
     justify-content: center;
 }
+
+.description {
+    display: flex;
+    flex-direction: column;
+    padding: 130px 0 0 50px;
+    width: 320px;
+    color: white;
+}
+
+.description a {
+    width: 120px;
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    font-family: "efframedium";
+}
+
+.description p {
+    font-family: "effralight";
+    font-size: 1.1em;
+}
+
 .half {
     width: 50%;
     height: 100%;
@@ -273,22 +303,18 @@ form {
 }
 #gojo {
     background-color: rgb(233,233,233);
-    max-height: 463px;
+    max-height: 490px;
 }
 #gojo-img {
-    max-height:315px; 
     width: auto;
     margin-top: 5%;
     margin-right: 5%;
 }
 #background-gojo{
     background-image: url(../images/pic-gojo-bg.png);
-    background-repeat: no-repeat;
     background-size: cover;
-    max-height: 463px;
+    background-position: center;
     width: 100%;
-    height: auto;
-    margin-top: 2.5%;
 }
 
 #fifththird {
@@ -328,7 +354,7 @@ form {
 }
 
 #background-chhn {
-    background-image: url(../images/pic-chhn-bg-real.png);
+    background-image: url(../images/pic-chhn-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 550px;
@@ -389,11 +415,10 @@ form {
     border-radius: 4px;
     background-color: rgb(5, 134, 211);
     border: none;
-    padding: 2.5%;
-    width: 30%;
+    padding: 5% 10%;
     margin-left: 5%;
     font-size: 0.85em;
-	font-family: "effraregular";
+	font-family: "effrabold";
 }
 
 #gojo-btn span {
@@ -406,11 +431,10 @@ form {
     border-radius: 4px;
     background-color: #FFF;
     border: none;
-    padding: 2.1%;
-    width: 25%;
+    padding: 5% 10%;
     margin-left: 6%;
     font-size: 0.9em;
-	font-family: "effraregular";
+    font-family: "effrabold";
 }
 
 #ft-btn span {
@@ -424,11 +448,10 @@ form {
     border-radius: 4px;
     background-color: #FFF;
     border: none;
-    padding: 2.1%;
-    width: 25%;
+    padding: 5% 10%;
     margin-left: 6%;
     font-size: 0.9em;
-	font-family: "effraregular";
+    font-family: "effrabold";
 }
 
 #chhn-btn span {
