@@ -63,7 +63,12 @@ form {
 	background-color: #FFF;
 	margin: 0 auto; 
 }
-
+.wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+}
 .divider{
     position: relative;
     top: 15%;
@@ -78,7 +83,7 @@ form {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: #0c5990;
-	height: 478px;
+	height: 475px;
 	width: 100%;
 	max-width: 100%;
 	overflow: hidden;
@@ -131,7 +136,7 @@ form {
 .about .column{
 	flex: 1;
 	margin: 2px;
-	max-width: 20%;
+	max-width: 12%;
 	padding: 10px;
 	padding-left: 0px !important;
 	margin-left: 0px !important;
@@ -184,7 +189,7 @@ form {
     padding-left: 5%;
     padding-top: 1%;
     padding-bottom: 1%;
-    padding-right: 5%;
+    padding-right: 3%;
     width: 35%;
     height: 164px;
     margin-right: 1%;
