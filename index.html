@@ -14,6 +14,7 @@
 
 <body>
     <main>
+        <!-- begin .container -->
         <div class="container">
             <!-- begin .header -->
             <div class="header">
@@ -26,9 +27,11 @@
                         <div class="subtitle"><h1>Enjoy the proven success of our experience.</h1></div>
                     </div>
                 </div>
-            <!-- end .header -->
             </div>
+            <!-- end .header -->
+            <!-- begin .content -->
             <div class="content">
+                <!-- begin .about -->
                 <section class="about">
                     <div class="spacer" style="height: 15%; width: 100%;"></div>
                     <div id="atom" class="svg"></div>
@@ -53,7 +56,9 @@
                         </div>
                     </div>
                 </section>
+                <!-- end .about -->
                 <div class="abt-client"></div>
+                <!-- begin .clients -->
                 <section class="clients">
                     <div class="wrapper">
                         <div class="clients grid">
@@ -70,111 +75,123 @@
                         </div>
                     </div>
                 </section>
-
+                <!-- end .clients -->
+                <!-- begin .presentation #gojo -->
                 <section class="presentation" id="gojo">
                     <div id="background-gojo">
+                        <div class="wrapper">
                         <div class="half" id="ls">
-                            <div style="float:right;">
                                 <img id="gojo-img" src="assets/images/pic-gojo.png" width="454" height="463">
-                            </div>
                         </div>
                         <div class="half" id="rs">
-                            <div class="description">
+                            <div class="description" style="color:rgb(0,0,0) !important">
                                 <h2><b>Gojo</b></h2>
                                 <h6>INTERNET OF THINGS</h6>
                                 <p style="font:1em;">Reducing the spread of hospital <br /><br /> infections with the Internet of Things.</p>
                                 <button class="btn" id="gojo-btn"><span>Learn More</span></button>
                             </div>
                         </div>
+                        </div>
                     </div>
                 </section>
-
+                <!-- end .presentation #gojo -->
+                <!-- begin .presentation #fifththird -->
                 <section class="presentation" id="fifththird">
                     <div id="background-ft">
-                        <div class="third" id="ls">
-                            <div class="description">
-                                <h2><b>Fifth Third Bank</b></h2>
-                                <h6>MOBILE APP</h6>
-                                <p style="font:1em;">Reimagine what a mobile banking <br /><br /> experience should be, focusing on the <br /><br /> user rather than the technology. </p>
-                                <button class="btn" id="ft-btn"><span>View App</span></button>
+                        <div class="wrapper">
+                            <div class="third" id="ls">
+                                <div class="description">
+                                    <h2><b>Fifth Third Bank</b></h2>
+                                    <h6>MOBILE APP</h6>
+                                    <p style="font:1em;">Reimagine what a mobile banking <br /><br /> experience should be, focusing on the <br /><br /> user rather than the technology. </p>
+                                    <button class="btn" id="ft-btn"><span>View App</span></button>
+                                </div>
                             </div>
-                        </div>
-                        <div class="twothirds" id="rs">
-                            <div style="float:left;">
-                                <img id="ft-img" src="assets/images/pic-fifththird.png" width="846" height="685">
+                            <div class="twothirds" id="rs">
+                                <div style="float:left;">
+                                    <img id="ft-img" src="assets/images/pic-fifththird.png" width="846" height="685">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
-
+                <!-- end .presentation #fifththird -->
+                <!-- begin .presentation #chhn -->
                 <section class="presentation" id="chhn">
                     <div id="background-chhn">
-                        <div class="half" id="ls">
-                            <div style="float:right;">
-                                <img id="chhn-img" src="assets/images/pic-chhn.png" width="615" height="501">
+                        <div class="wrapper">
+                            <div class="half" id="ls">
+                                <div style="float:right;">
+                                    <img id="chhn-img" src="assets/images/pic-chhn.png" width="615" height="501">
+                                </div>
                             </div>
-                        </div>
-                        <div class="half" id="rs">
-                            <div class="description">
-                                <h2><b>The Christ Hospital Health Network</b></h2>
-                                <h6>DIGITAL PLATFORM</h6>
-                                <p style="font:1em;">A digital front door to the finest patient experiences.</p>
-                                <button class="btn" id="chhn-btn"><span>Learn More</span></button>
+                            <div class="half" id="rs">
+                                <div class="description">
+                                    <h2><b>The Christ Hospital Health Network</b></h2>
+                                    <h6>DIGITAL PLATFORM</h6>
+                                    <p style="font:1em;">A digital front door to the finest patient experiences.</p>
+                                    <button class="btn" id="chhn-btn"><span>Learn More</span></button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
-
+                <!-- end .presentation #chhn -->
+                <!-- begin .contact -->
                 <section class="contact">
                     <div id="background-contact">
-                        <div class="twothirds" id="ls">
-                            <div style="padding: 0 50px; border-right: 2px solid #D8D8D8;">
-                                <h3 style="text-align:center;">Connect With Us</h3>
-                                <h5 style="text-align:center;">Have a question or just want to chat? Get it touch.</h5>
-                                <form class="inqueryform" action="#" method="post">
-                                    <input class="textbox" type="text" name="Name" placeholder="Name" size="50">
-                                    <input class="textbox" type="email" name="Email" placeholder="Email" size="50">
-                                    <textarea class="messagebox" name="Message" rows="10" cols="51" placeholder="Message"></textarea>
-                                    <br />
-                                    <input class="btn" id="contact-btn" type="submit" name="Submit">
-                                </form>
-                            </div>
-                        </div>
-                        <div class="third" id="rs">
-                            <div style="padding: 0 40px; display: flex; flex-direction: column; justify-content: space-between;">
-                                <h4>For inqueries, please contact:</h4>
-                                <p>Tracy Thompson<br /> tthompson@cardinalsolutions.com<br /><b>704.936.4444</b></p>
-                                <br />
-                                <h4>Come by our office</h4>
-                                <p>222 S. Church St. Suite 500.<br />Charlotte, NC 28202</p>
-                                <div id="map" style="margin-left: 15px;">
-                                    <!-- STILL TODO : replace with embedded map  -->
-                                    <img src="assets/images/pic-map-placeholder.png" alt="Map of Cardinal Solutions Charlotte Office" height="110" width="110">
+                        <div class="wrapper">
+                            <div class="twothirds" id="ls">
+                                <div style="padding: 0 50px; border-right: 2px solid #D8D8D8;">
+                                    <h3 style="text-align:center;">Connect With Us</h3>
+                                    <h5 style="text-align:center;">Have a question or just want to chat? Get it touch.</h5>
+                                    <form class="inqueryform" action="#" method="post">
+                                        <input class="textbox" type="text" name="Name" placeholder="Name" size="50">
+                                        <input class="textbox" type="email" name="Email" placeholder="Email" size="50">
+                                        <textarea class="messagebox" name="Message" rows="10" cols="51" placeholder="Message"></textarea>
+                                        <br />
+                                        <input class="btn" id="contact-btn" type="submit" name="Submit">
+                                    </form>
                                 </div>
-                                <p>
-                                    <a href="#">Find parking on our map!</a>
-                                </p>
+                            </div>
+                            <div class="third" id="rs">
+                                <div style="padding: 0 40px; display: flex; flex-direction: column; justify-content: space-between;">
+                                    <h4>For inqueries, please contact:</h4>
+                                    <p>Tracy Thompson<br /> tthompson@cardinalsolutions.com<br /><b>704.936.4444</b></p>
+                                    <br />
+                                    <h4>Come by our office</h4>
+                                    <p>222 S. Church St. Suite 500.<br />Charlotte, NC 28202</p>
+                                    <div id="map" style="margin-left: 15px;">
+                                        <!-- STILL TODO : replace with embedded map  -->
+                                        <img src="assets/images/pic-map-placeholder.png" alt="Map of Cardinal Solutions Charlotte Office" height="110" width="110">
+                                    </div>
+                                    <p>
+                                        <a href="#">Find parking on our map!</a>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
-
-                <!-- end .content -->
+                <!-- end .contact -->
             </div>
-            <!-- end .container -->
+            <!-- end .content -->
         </div>
+        <!-- end .container -->
     </main>
     <footer>
+        <!-- begin .container -->
         <div class="container">
+            <!-- begin .footer -->
             <div class="footer">
                 <section class="footer-content">
                     <div class="copyright"><p>&copy; 2016 Cardinal Solutions. All rights reserved.</p></div>
                     <div class="social-links"></div>
                 </section>
-                <!-- end .footer -->
             </div>
-            <!-- end .container -->
+            <!-- end .footer -->
         </div>
+        <!-- end .container -->
     </footer>
 </body>
 </html>
