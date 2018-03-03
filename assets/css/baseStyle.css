@@ -264,7 +264,7 @@ form {
     display: flex;
     flex-direction: column;
     padding: 130px 0 0 50px;
-    width: 250px;
+    width: 320px;
     color: white;
 }
 
@@ -303,7 +303,7 @@ form {
 }
 #gojo {
     background-color: rgb(233,233,233);
-    max-height: 463px;
+    max-height: 490px;
 }
 #gojo-img {
     width: auto;
@@ -312,12 +312,9 @@ form {
 }
 #background-gojo{
     background-image: url(../images/pic-gojo-bg.png);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    max-height: 463px;
     width: 100%;
-    height: 500px;
 }
 
 #fifththird {
@@ -418,11 +415,10 @@ form {
     border-radius: 4px;
     background-color: rgb(5, 134, 211);
     border: none;
-    padding: 2.5%;
-    width: 30%;
+    padding: 5% 10%;
     margin-left: 5%;
     font-size: 0.85em;
-	font-family: "effraregular";
+	font-family: "effrabold";
 }
 
 #gojo-btn span {
@@ -435,11 +431,10 @@ form {
     border-radius: 4px;
     background-color: #FFF;
     border: none;
-    padding: 2.1%;
-    width: 25%;
+    padding: 5% 10%;
     margin-left: 6%;
     font-size: 0.9em;
-	font-family: "effraregular";
+    font-family: "effrabold";
 }
 
 #ft-btn span {
@@ -453,11 +448,10 @@ form {
     border-radius: 4px;
     background-color: #FFF;
     border: none;
-    padding: 2.1%;
-    width: 25%;
+    padding: 5% 10%;
     margin-left: 6%;
     font-size: 0.9em;
-	font-family: "effraregular";
+    font-family: "effrabold";
 }
 
 #chhn-btn span {
