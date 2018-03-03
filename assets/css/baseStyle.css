@@ -107,14 +107,14 @@ form {
 	z-index: 2;
 }
 
-.subtitle{
-	margin-left: 10.5%;
-	margin-right: 10.5%;
-	font: "effraregular";
-	font-weight: bold;
-	color: #FFF;
-	font-size: 2.1em;
-	text-align: center;
+.subtitle {
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    font-family: 'effraregular';
+    font-weight: bold;
+    color: #FFF;
+    font-size: 2.1em;
+    text-align: center;
 }
 
 .content {
@@ -136,7 +136,8 @@ form {
 .about .column{
 	flex: 1;
 	margin: 2px;
-	max-width: 12%;
+	max-width: 250px;
+    min-width: 250px;
 	padding: 10px;
 	padding-left: 0px !important;
 	margin-left: 0px !important;
@@ -148,17 +149,54 @@ form {
 	height: 40px;
 	background-color: transparent;
 }
+
 #atom {
 	background-image: url(../icons/icon-bi.svg);
 	background-repeat: no-repeat;
 }
+
 #app {
 	background-image: url(../icons/icon-appdev.svg);
 	background-repeat: no-repeat;
 }
+
 #bulb {
 	background-image: url(../icons/icon-ba.svg);
 	background-repeat: no-repeat;
+}
+
+.social-links {
+    display: flex;
+}
+
+.copyright {
+    display: flex;
+    float: left;
+    margin-right: 500px;
+}
+
+#twitter {
+    background-image: url(../icons/icon-twitter.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+}
+
+#facebook {
+    background-image: url(../icons/icon-facebook.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+
+#googleplus {
+    background-image: url(../icons/icon-g+.svg);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
 }
 
 .abt-client {
@@ -180,7 +218,7 @@ form {
     padding-left: 5%;
 }
 .clients .grid {
-    display: block;
+    display: flex;
     width: 100%;
 }
 .grid > div:first-child {
@@ -191,7 +229,7 @@ form {
     padding-bottom: 1%;
     padding-right: 3%;
     width: 35%;
-    height: 164px;
+    height: 180px;
     margin-right: 1%;
     margin-bottom: 0px;
 }
@@ -200,6 +238,7 @@ form {
     padding-right: 15%;
     -webkit-margin-after: 0px;
     font-size: 0.85em;
+    line-height: 1.8;
 }
 .grid > div:first-child > h3 {
     padding-top: 15px;
@@ -281,6 +320,7 @@ form {
 .description p {
     font-family: "effralight";
     font-size: 1.1em;
+    line-height: 1;
 }
 
 .half {
@@ -363,15 +403,24 @@ form {
 
 .contact {
     background-color: rgb(238, 238, 238);
-    height: 500px;
-    width: 100%;
-    max-width: 100%;
     overflow: hidden;
     z-index: 0;
     display: flex;
     flex-flow: wrap;
     justify-content: center;
     padding: 70px;
+}
+
+.borderwrap {
+    padding: 0 50px 0 5px;
+    border-right: 2px solid #D8D8D8;
+}
+
+.contact-content {
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #background-contact {
@@ -381,8 +430,13 @@ form {
 .footer {
 	padding: 10px 0;
 	background-color: #d8d8d8;
+    height: 70px;
 }
 
+.footer-content {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
 
 .fltrt {  
 	float: right;
@@ -462,10 +516,10 @@ form {
 }
 #contact-btn {
     background-color: rgb(5, 134, 211);
-    width: 20%;
-    font-size: 0.85em;
-    font-family: "effraregular";
-    padding: 10px;
+    width: 30%;
+    font-size: 0.95em;
+    font-family: "effrabold";
+    padding: 15px 20px;
     border-radius: 5px;
     border-style: none;
     border: 2px solid #D8D8D8;
@@ -506,4 +560,10 @@ form {
     width: 110px;
     border-radius: 10px;
     border: 1px solid #9c9c9c;
+}
+
+#map-link {
+    color: rgb(5, 134, 211);
+    font-family: 'effrabold';
+    padding-top: 10px;
 }
