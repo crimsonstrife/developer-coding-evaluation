@@ -1,1 +1,133 @@
-@charset "utf-8";
+﻿@charset "utf-8";
+
+@media screen and (max-width: 1059px) {
+    .header {
+        background: url(../images/pic-hero.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #0c5990;
+        height: 475px;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        z-index: 0;
+    }
+    .logo {
+        background: url(../logos/logo-cardinal.png);
+        background-repeat: no-repeat;
+        height: 8.5%;
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 2;
+    }
+    .subtitle {
+        margin-left: auto;
+        margin-right: auto;
+        font-family: 'effraregular';
+        font-weight: bold;
+        color: #FFF;
+        font-size: 1em;
+        text-align: center;
+    }
+    .about .column {
+        flex: 1;
+        margin: 2px;
+        max-width: 250px;
+        min-width: 250px;
+        padding: 10px;
+        padding-left: 0px !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center;
+        max-height: 150px;
+    }
+    .about {
+        background-color: #f0f0f0;
+        height: 100%;
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        z-index: 0;
+        display: block;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+    .svg {
+        display: block;
+        width: 40px;
+        height: 40px;
+        background-color: transparent;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .clients {
+        background-color: transparent;
+        height: 100%;
+        max-width: 100%;
+        overflow: visible;
+        z-index: 0;
+        display: flex;
+        flex-flow: wrap;
+        padding-left: 1%;
+    }
+    .grid > * {
+        display: table;
+        text-decoration: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        text-align: left;
+        background-color: #ffffff;
+        z-index: 3;
+        box-shadow: 1px 1px rgba(128, 128, 128, 0.20);
+        border: 1px solid rgba(128, 128, 128, 0.20);
+        border-radius: 2px;
+        width: 94%;
+        min-width: 300px;
+        height: 30%;
+        float: left;
+        margin: 8px;
+    }
+    .grid > div:first-child {
+        background-color: #383d49;
+        color: #FFF;
+        padding-left: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        padding-right: 3%;
+        width: 86.5%;
+        min-width: 300px;
+        height: 180px;
+        margin-right: 1%;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    .grid > * > img {
+        display: block;
+        vertical-align: middle;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        height: auto;
+        width: auto;
+    }
+    #fithtrd {
+        margin-top: 5%;
+    }
+    #christ {
+        margin-top: 5%;
+    }
+    #skans {
+        margin-top: 5%;
+    }
+    #PNG {
+        margin-top: 5%;
+    }
+    #atom {
+        background-image: url(../icons/icon-bi.svg);
+        background-repeat: no-repeat;
+        margin-top: 50px;
+    }
+}

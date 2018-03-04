@@ -57,6 +57,10 @@ form {
 	}
 }
 
+button:hover {
+    box-shadow: 0 6px 8px 0 rgba(46, 46, 46, 0.15);
+}
+
 .container {
 	max-width: 100%;
 	background-color: #FFF;
