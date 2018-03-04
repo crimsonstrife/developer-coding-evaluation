@@ -10,7 +10,6 @@ body {
     justify-content: center;
 }
 
-
 ul, ol, dl { 
 	padding: 0;
 	margin: 0;
@@ -107,14 +106,14 @@ form {
 	z-index: 2;
 }
 
-.subtitle{
-	margin-left: 10.5%;
-	margin-right: 10.5%;
-	font: "effraregular";
-	font-weight: bold;
-	color: #FFF;
-	font-size: 2.1em;
-	text-align: center;
+.subtitle {
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+    font-family: 'effraregular';
+    font-weight: bold;
+    color: #FFF;
+    font-size: 2.1em;
+    text-align: center;
 }
 
 .content {
@@ -136,29 +135,21 @@ form {
 .about .column{
 	flex: 1;
 	margin: 2px;
-	max-width: 12%;
+	max-width: 250px;
+    min-width: 250px;
 	padding: 10px;
 	padding-left: 0px !important;
 	margin-left: 0px !important;
 }
 
-.svg {
-	display: inline-block;
-	width: 40px;
-	height: 40px;
-	background-color: transparent;
+.social-links {
+    display: flex;
 }
-#atom {
-	background-image: url(../icons/icon-bi.svg);
-	background-repeat: no-repeat;
-}
-#app {
-	background-image: url(../icons/icon-appdev.svg);
-	background-repeat: no-repeat;
-}
-#bulb {
-	background-image: url(../icons/icon-ba.svg);
-	background-repeat: no-repeat;
+
+.copyright {
+    display: flex;
+    float: left;
+    margin-right: 500px;
 }
 
 .abt-client {
@@ -180,7 +171,7 @@ form {
     padding-left: 5%;
 }
 .clients .grid {
-    display: block;
+    display: flex;
     width: 100%;
 }
 .grid > div:first-child {
@@ -191,7 +182,7 @@ form {
     padding-bottom: 1%;
     padding-right: 3%;
     width: 35%;
-    height: 164px;
+    height: 180px;
     margin-right: 1%;
     margin-bottom: 0px;
 }
@@ -200,6 +191,7 @@ form {
     padding-right: 15%;
     -webkit-margin-after: 0px;
     font-size: 0.85em;
+    line-height: 1.8;
 }
 .grid > div:first-child > h3 {
     padding-top: 15px;
@@ -232,21 +224,6 @@ form {
     margin-bottom: 25%;
     height: auto;
     width: auto;
-}
-#client {
-
-}
-#skans {
-    margin-top: 40%;
-}
-#fithtrd {
-    margin-top: 35%;
-}
-#christ {
-    margin-top: 35%;
-}
-#PNG {
-    margin-top: 35%;
 }
 
 .presentation {
@@ -281,6 +258,7 @@ form {
 .description p {
     font-family: "effralight";
     font-size: 1.1em;
+    line-height: 1;
 }
 
 .half {
@@ -295,77 +273,9 @@ form {
     width: 60%;
     height: 100%;
 }
-#ls {
-    float: left;
-}
-#rs {
-    float: right;
-}
-#gojo {
-    background-color: rgb(233,233,233);
-    max-height: 490px;
-}
-#gojo-img {
-    width: auto;
-    margin-top: 5%;
-    margin-right: 5%;
-}
-#background-gojo{
-    background-image: url(../images/pic-gojo-bg.png);
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-}
-
-#fifththird {
-    background-color: rgb(49, 62, 76);
-    max-height: 578px;
-    height: 500px;
-    color: white;
-}
-
-#ft-img {
-    max-height: 600px;
-    width: auto;
-    margin-top: 8%;
-}
-
-#background-ft {
-    background-image: url(../images/pic-fifththird-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 578px;
-    width: 100%;
-}
-
-#chhn {
-    background-color: rgb(233,233,233);
-    max-height: 510px;
-    height: 510px;
-    color: rgb(233,233,233);
-}
-
-#chhn-img {
-    max-height: 550px;
-    height: 550px;
-    width: auto;
-    margin-right: 2%;
-    margin-bottom: 20%;
-}
-
-#background-chhn {
-    background-image: url(../images/pic-chhn-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 550px;
-    width: 100%;
-}
 
 .contact {
     background-color: rgb(238, 238, 238);
-    height: 500px;
-    width: 100%;
-    max-width: 100%;
     overflow: hidden;
     z-index: 0;
     display: flex;
@@ -374,15 +284,28 @@ form {
     padding: 70px;
 }
 
-#background-contact {
+.borderwrap {
+    padding: 0 50px 0 5px;
+    border-right: 2px solid #D8D8D8;
+}
+
+.contact-content {
+    padding: 0 40px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .footer {
 	padding: 10px 0;
 	background-color: #d8d8d8;
+    height: 70px;
 }
 
+.footer-content {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
 
 .fltrt {  
 	float: right;
@@ -411,72 +334,7 @@ form {
     outline: none;
     border-radius: 2px;
 }
-#gojo-btn {
-    border-radius: 4px;
-    background-color: rgb(5, 134, 211);
-    border: none;
-    padding: 5% 10%;
-    margin-left: 5%;
-    font-size: 0.85em;
-	font-family: "effrabold";
-}
 
-#gojo-btn span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-}
-
-#ft-btn {
-    border-radius: 4px;
-    background-color: #FFF;
-    border: none;
-    padding: 5% 10%;
-    margin-left: 6%;
-    font-size: 0.9em;
-    font-family: "effrabold";
-}
-
-#ft-btn span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    color: black;
-}
-
-#chhn-btn {
-    border-radius: 4px;
-    background-color: #FFF;
-    border: none;
-    padding: 5% 10%;
-    margin-left: 6%;
-    font-size: 0.9em;
-    font-family: "effrabold";
-}
-
-#chhn-btn span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    color: black;
-}
-#contact-btn {
-    background-color: rgb(5, 134, 211);
-    width: 20%;
-    font-size: 0.85em;
-    font-family: "effraregular";
-    padding: 10px;
-    border-radius: 5px;
-    border-style: none;
-    border: 2px solid #D8D8D8;
-    margin: 0px;
-}
-
-#contact-btn span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-}
 .inqueryform {
     font-family: "effraregular";
     height: 350px;
@@ -499,11 +357,4 @@ form {
     border-radius: 5px;
     border-style: none;
     border: 2px solid #D8D8D8;
-}
-#map {
-    overflow: hidden;
-    height: 110px;
-    width: 110px;
-    border-radius: 10px;
-    border: 1px solid #9c9c9c;
 }

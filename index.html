@@ -5,11 +5,11 @@
     <meta name="viewport" content="width=device-width">
     <title>Cardinal - Home</title>
 
-    <link href="assets/css/fontstyles.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/iconstyles.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/baseStyle.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/tags.css" rel="stylesheet" type="text/css">
-    <!-- STILL TODO : add mobile scaling css file  -->
+    <link href="assets/css/fontstyles.css" rel="stylesheet" type="text/css"> <!-- css style defining font families and files -->
+    <link href="assets/css/iconstyles.css" rel="stylesheet" type="text/css"> <!-- css style defining svg icons and files -->
+    <link href="assets/css/baseStyle.css" rel="stylesheet" type="text/css"> <!-- css style defining base design styles -->
+    <link href="assets/css/tags.css" rel="stylesheet" type="text/css"> <!-- css style defining IDs for Class overrides -->
+    <link href="assets/css/scaling.css" rel="stylesheet" type="text/css"> <!-- css style overrides for mobile scaling -->
 </head>
 
 <body>
@@ -87,7 +87,7 @@
                             <div class="description" style="color:rgb(0,0,0) !important">
                                 <h2><b>Gojo</b></h2>
                                 <h6>INTERNET OF THINGS</h6>
-                                <p style="font:1em;">Reducing the spread of hospital <br /><br /> infections with the Internet of Things.</p>
+                                <p >Reducing the spread of hospital <br /><br /> infections with the Internet of Things.</p>
                                 <button class="btn" id="gojo-btn"><span>Learn More</span></button>
                             </div>
                         </div>
@@ -103,12 +103,12 @@
                                 <div class="description">
                                     <h2><b>Fifth Third Bank</b></h2>
                                     <h6>MOBILE APP</h6>
-                                    <p style="font:1em;">Reimagine what a mobile banking <br /><br /> experience should be, focusing on the <br /><br /> user rather than the technology. </p>
+                                    <p >Reimagine what a mobile banking <br /><br /> experience should be, focusing on the <br /><br /> user rather than the technology. </p>
                                     <button class="btn" id="ft-btn"><span>View App</span></button>
                                 </div>
                             </div>
                             <div class="twothirds" id="rs">
-                                <div style="float:left;">
+                                <div>
                                     <img id="ft-img" src="assets/images/pic-fifththird.png" width="846" height="685">
                                 </div>
                             </div>
@@ -129,7 +129,7 @@
                                 <div class="description">
                                     <h2><b>The Christ Hospital Health Network</b></h2>
                                     <h6>DIGITAL PLATFORM</h6>
-                                    <p style="font:1em;">A digital front door to the finest patient experiences.</p>
+                                    <p>A digital front door to the finest patient <br /><br /> experiences.</p>
                                     <button class="btn" id="chhn-btn"><span>Learn More</span></button>
                                 </div>
                             </div>
@@ -142,8 +142,8 @@
                     <div id="background-contact">
                         <div class="wrapper">
                             <div class="twothirds" id="ls">
-                                <div style="padding: 0 50px; border-right: 2px solid #D8D8D8;">
-                                    <h3 style="text-align:center;">Connect With Us</h3>
+                                <div class="borderwrap">
+                                    <h2 style="text-align:center;">Connect With Us</h2>
                                     <h5 style="text-align:center;">Have a question or just want to chat? Get it touch.</h5>
                                     <form class="inqueryform" action="#" method="post">
                                         <input class="textbox" type="text" name="Name" placeholder="Name" size="50">
@@ -155,7 +155,7 @@
                                 </div>
                             </div>
                             <div class="third" id="rs">
-                                <div style="padding: 0 40px; display: flex; flex-direction: column; justify-content: space-between;">
+                                <div class="contact-content">
                                     <h4>For inqueries, please contact:</h4>
                                     <p>Tracy Thompson<br /> tthompson@cardinalsolutions.com<br /><b>704.936.4444</b></p>
                                     <br />
@@ -166,7 +166,7 @@
                                         <img src="assets/images/pic-map-placeholder.png" alt="Map of Cardinal Solutions Charlotte Office" height="110" width="110">
                                     </div>
                                     <p>
-                                        <a href="#">Find parking on our map!</a>
+                                        <a id="map-link" href="#">Find parking on our map!</a>
                                     </p>
                                 </div>
                             </div>
@@ -184,10 +184,20 @@
         <div class="container">
             <!-- begin .footer -->
             <div class="footer">
-                <section class="footer-content">
-                    <div class="copyright"><p>&copy; 2016 Cardinal Solutions. All rights reserved.</p></div>
-                    <div class="social-links"></div>
-                </section>
+                <div class="wrapper">
+                    <section class="footer-content">
+                        <div >
+                            <div class="copyright"><p>&copy; 2016 Cardinal Solutions. All rights reserved.</p></div>
+                        </div>
+                        <div >
+                            <div class="social-links">
+                                <a href=""><div id="twitter" class="svg"></div></a>
+                                <a href=""><div id="facebook" class="svg"></div></a>
+                                <a href=""><div id="googleplus" class="svg"></div></a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
             </div>
             <!-- end .footer -->
         </div>
