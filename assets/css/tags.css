@@ -29,13 +29,14 @@
 
 #gojo {
     background-color: rgb(233,233,233);
-    max-height: 490px;
 }
 
 #gojo-img {
-    width: auto;
+    width: 80%;
+    height: auto;
     margin-top: 5%;
     margin-right: 5%;
+    margin-left: 5%;
 }
 
 #background-gojo {
