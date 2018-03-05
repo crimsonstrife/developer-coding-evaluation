@@ -130,14 +130,17 @@
         margin-top: 50px;
     }
     .presentation {
-        background-color: lightgray;
+        background-color: rgb(233,233,233);
         width: 100%;
         max-width: 100%;
+        flex-direction: column;
+        align-items: center;
         overflow: hidden;
         z-index: 0;
-        display: block;
+        display: flex;
         flex-flow: wrap;
         justify-content: center;
+        background-position: bottom;
         height: 100%;
     }
     .half {
@@ -166,7 +169,7 @@
     .description {
         display: flex;
         flex-direction: column;
-        padding: 130px 0 0 50px;
+        padding: 15px 0 0 25px;
         width: 320px;
         color: white;
     }
