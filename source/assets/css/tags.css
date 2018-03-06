@@ -1,0 +1,174 @@
+@charset "utf-8";
+
+#client {
+}
+
+#skans {
+    margin-top: 40%;
+}
+
+#fithtrd {
+    margin-top: 35%;
+}
+
+#christ {
+    margin-top: 35%;
+}
+
+#PNG {
+    margin-top: 35%;
+}
+
+#gojo {
+    background-color: rgb(233,233,233);
+}
+
+#gojo-img {
+    width: 80%;
+    height: auto;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: -1%;
+}
+
+#background-gojo {
+    background-image: url(../images/pic-gojo-bg.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#fifththird {
+    background-color: rgb(49, 62, 76);
+    color: white;
+}
+
+#ft-img {
+    height: auto;
+    width: 130%;
+    margin-top: 8%;
+    margin-bottom: -25%;
+    margin-left: -20%;
+}
+
+#background-ft {
+    background-image: url(../images/pic-fifththird-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#chhn {
+    background-color: rgb(233,233,233);
+    color: rgb(233,233,233);
+}
+
+#chhn-img {
+    height: auto;
+    width: 100%;
+    margin-right: 2%;
+    margin-bottom: -6%;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+#background-chhn {
+    background-image: url(../images/pic-chhn-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#background-contact {
+    display: flex;
+}
+
+#gojo-btn {
+    border-radius: 4px;
+    background-color: rgb(5, 134, 211);
+    border: none;
+    padding: 5% 10%;
+    margin-left: 5%;
+    font-size: 0.85em;
+    font-family: "effrabold";
+}
+
+    #gojo-btn span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+    }
+
+#ft-btn {
+    border-radius: 4px;
+    background-color: #FFF;
+    border: none;
+    padding: 5% 10%;
+    margin-left: 6%;
+    font-size: 0.9em;
+    font-family: "effrabold";
+}
+
+    #ft-btn span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        color: black;
+    }
+
+#chhn-btn {
+    border-radius: 4px;
+    background-color: #FFF;
+    border: none;
+    padding: 5% 10%;
+    margin-left: 6%;
+    font-size: 0.9em;
+    font-family: "effrabold";
+}
+
+    #chhn-btn span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        color: black;
+    }
+
+#contact-btn {
+    background-color: rgb(5, 134, 211);
+    width: 30%;
+    font-size: 0.95em;
+    font-family: "effrabold";
+    padding: 15px 20px;
+    border-radius: 5px;
+    border-style: none;
+    border: 2px solid #D8D8D8;
+    margin: 0px;
+}
+
+    #contact-btn span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+    }
+
+#map {
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border: 1px solid #9c9c9c;
+}
+
+#map-link {
+    color: rgb(5, 134, 211);
+    font-family: 'effrabold';
+    padding-top: 10px;
+}
+
+#wrapper-reverse {
+    flex-direction: unset;
+}
+
+#align-center {
+}
