@@ -278,7 +278,13 @@ button:hover {
     width: 60%;
     height: 100%;
 }
+.ls {
+    float: left;
+}
 
+.rs {
+    float: right;
+}
 .contact {
     background-color: rgb(238, 238, 238);
     overflow: hidden;
