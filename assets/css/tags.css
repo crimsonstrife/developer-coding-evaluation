@@ -37,6 +37,7 @@
     margin-top: 5%;
     margin-right: 5%;
     margin-left: 5%;
+    margin-bottom: -1%;
 }
 
 #background-gojo {
@@ -69,24 +70,22 @@
 
 #chhn {
     background-color: rgb(233,233,233);
-    max-height: 510px;
-    height: 510px;
     color: rgb(233,233,233);
 }
 
 #chhn-img {
-    max-height: 550px;
-    height: 550px;
-    width: auto;
+    height: auto;
+    width: 100%;
     margin-right: 2%;
-    margin-bottom: 20%;
+    margin-bottom: -6%;
+    margin-left: 15%;
+    margin-top: 10%;
 }
 
 #background-chhn {
     background-image: url(../images/pic-chhn-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 550px;
     width: 100%;
 }
 
