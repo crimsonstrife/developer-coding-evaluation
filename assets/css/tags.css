@@ -29,13 +29,15 @@
 
 #gojo {
     background-color: rgb(233,233,233);
-    max-height: 490px;
 }
 
 #gojo-img {
-    width: auto;
+    width: 80%;
+    height: auto;
     margin-top: 5%;
     margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: -1%;
 }
 
 #background-gojo {
@@ -47,45 +49,42 @@
 
 #fifththird {
     background-color: rgb(49, 62, 76);
-    max-height: 578px;
-    height: 500px;
     color: white;
 }
 
 #ft-img {
-    max-height: 600px;
-    width: auto;
+    height: auto;
+    width: 130%;
     margin-top: 8%;
+    margin-bottom: -25%;
+    margin-left: -20%;
 }
 
 #background-ft {
     background-image: url(../images/pic-fifththird-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 578px;
     width: 100%;
 }
 
 #chhn {
     background-color: rgb(233,233,233);
-    max-height: 510px;
-    height: 510px;
     color: rgb(233,233,233);
 }
 
 #chhn-img {
-    max-height: 550px;
-    height: 550px;
-    width: auto;
+    height: auto;
+    width: 100%;
     margin-right: 2%;
-    margin-bottom: 20%;
+    margin-bottom: -6%;
+    margin-left: 15%;
+    margin-top: 10%;
 }
 
 #background-chhn {
     background-image: url(../images/pic-chhn-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 550px;
     width: 100%;
 }
 
@@ -173,4 +172,12 @@
     color: rgb(5, 134, 211);
     font-family: 'effrabold';
     padding-top: 10px;
+}
+
+#wrapper-reverse {
+    flex-direction: unset;
+}
+
+#align-center {
+
 }
