@@ -1,22 +1,26 @@
 @charset "utf-8";
+
 @font-face {
     font-family: 'effrabold';
     src: url('../fonts/effra_std_bd-webfont.woff2') format('woff2'), url('../fonts/effra_std_bd-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'effralight';
     src: url('../fonts/effra_std_lt-webfont.woff2') format('woff2'), url('../fonts/effra_std_lt-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'efframedium';
     src: url('../fonts/effra_std_md-webfont.woff2') format('woff2'), url('../fonts/effra_std_md-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'effraregular';
     src: url('../fonts/effra_std_rg-webfont.woff2') format('woff2'), url('../fonts/effra_std_rg-webfont.woff') format('woff');

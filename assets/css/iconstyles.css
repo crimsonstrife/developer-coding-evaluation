@@ -1,17 +1,17 @@
 @charset "utf-8";
 
-$icon-width: 32px;
-$icon-height: 32px;
-
-.icon {
-	float: left;
-	margin: 10px;
+$icon-width: 32px; $icon-height: 32px; .icon {
+    float: left;
+    margin: 10px;
     width: $icon-width;
     height: $icon-height;
     display: block;
-    &.vertically-centred {
-		margin-top: -1 * ($icon-height / 2);
-    }
+    &.vertically-centred
+
+{
+    margin-top: -1 * ($icon-height / 2);
+}
+
 }
 
 .svg {

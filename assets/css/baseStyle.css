@@ -1,4 +1,5 @@
 ﻿@charset "utf-8";
+
 body {
     font-family: "effraregular";
     font-size: 16px;
@@ -10,51 +11,59 @@ body {
     justify-content: center;
 }
 
-ul, ol, dl { 
-	padding: 0;
-	margin: 0;
+ul, ol, dl {
+    padding: 0;
+    margin: 0;
 }
+
 h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;	
-	padding-right: 15px;
-	padding-left: 15px; 
+    margin-top: 0;
+    padding-right: 15px;
+    padding-left: 15px;
 }
-a img { 
-	border: none;
+
+a img {
+    border: none;
 }
 
 a:link {
-	color: #42413C;
-	text-decoration: underline; 
+    color: #42413C;
+    text-decoration: underline;
 }
+
 a:visited {
-	color: #6E6C64;
-	text-decoration: underline;
+    color: #6E6C64;
+    text-decoration: underline;
 }
+
 a:hover, a:active, a:focus {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 form {
-   max-width: 600px;
-   text-align: center;
-   margin: 20px auto;
-  
-  input, textarea {
-     border:0; outline:0;
-     padding: 1em;
-     @include border-radius(8px);
-     display: block;
-     width: 100%;
-     margin-top: 1em;
-     font-family: 'effraregular';
-     @include box-shadow(0 1px 1px rgba(black, 0.1));
-     resize: none;
-    
-    &:focus {
-       @include box-shadow(0 0px 2px rgba($red, 1)!important);
-   		}
-	}
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+    input, textarea
+
+{
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    @include border-radius(8px);
+    display: block;
+    width: 100%;
+    margin-top: 1em;
+    font-family: 'effraregular';
+    @include box-shadow(0 1px 1px rgba(black, 0.1));
+    resize: none;
+    &:focus
+
+{
+    @include box-shadow(0 0px 2px rgba($red, 1)!important);
+}
+
+}
 }
 
 button:hover {
@@ -62,17 +71,19 @@ button:hover {
 }
 
 .container {
-	max-width: 100%;
-	background-color: #FFF;
-	margin: 0 auto; 
+    max-width: 100%;
+    background-color: #FFF;
+    margin: 0 auto;
 }
+
 .wrapper {
     max-width: 1024px;
     margin: 0 auto;
     height: 100%;
     display: flex;
 }
-.divider{
+
+.divider {
     position: relative;
     top: 15%;
     bottom: 35%;
@@ -81,33 +92,33 @@ button:hover {
 }
 
 .header {
-	background:url(../images/pic-hero.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-color: #0c5990;
-	height: 475px;
-	width: 100%;
-	max-width: 100%;
-	overflow: hidden;
-	z-index: 0;
+    background: url(../images/pic-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0c5990;
+    height: 475px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: 0;
 }
 
-.colorOverlay{
-	background: rgba(12,89,144,0.0);
-	height: 100%;
-	width: 100%;
-	color: #0c5990;
-	z-index: 1;
+.colorOverlay {
+    background: rgba(12,89,144,0.0);
+    height: 100%;
+    width: 100%;
+    color: #0c5990;
+    z-index: 1;
 }
 
-.logo{
-	background:url(../logos/logo-cardinal.png);
-	background-repeat: no-repeat;
-	height: 8.5%;
-	max-width: 140px;
-	margin-left: 5%;
-	z-index: 2;
+.logo {
+    background: url(../logos/logo-cardinal.png);
+    background-repeat: no-repeat;
+    height: 8.5%;
+    max-width: 140px;
+    margin-left: 5%;
+    z-index: 2;
 }
 
 .subtitle {
@@ -121,30 +132,29 @@ button:hover {
 }
 
 .content {
-	
 }
 
-.about{
-	background-color: #f0f0f0;
-	height: 280px;
-	width: 100%;
-	max-width: 100%;
-	overflow: hidden;
-	z-index: 0;
-	display: flex;
-	flex-flow: wrap;
-	justify-content: center;
+.about {
+    background-color: #f0f0f0;
+    height: 280px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    z-index: 0;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 
-.about .column{
-	flex: 1;
-	margin: 2px;
-	max-width: 250px;
-    min-width: 250px;
-	padding: 10px;
-	padding-left: 0px !important;
-	margin-left: 0px !important;
-}
+    .about .column {
+        flex: 1;
+        margin: 2px;
+        max-width: 250px;
+        min-width: 250px;
+        padding: 10px;
+        padding-left: 0px !important;
+        margin-left: 0px !important;
+    }
 
 .social-links {
     display: flex;
@@ -174,9 +184,11 @@ button:hover {
     padding-left: 5%;
     margin-bottom: 2.5%;
 }
-.clients .grid {
-    display: flex;
-}
+
+    .clients .grid {
+        display: flex;
+    }
+
 .grid > div:first-child {
     background-color: #383d49;
     color: #FFF;
@@ -189,16 +201,19 @@ button:hover {
     margin-right: 1%;
     margin-bottom: 0px;
 }
-.grid > div:first-child > p {
-    margin-bottom: 0px;
-    padding-right: 15%;
-    -webkit-margin-after: 0px;
-    font-size: 0.85em;
-    line-height: 1.8;
-}
-.grid > div:first-child > h3 {
-    padding-top: 15px;
-}
+
+    .grid > div:first-child > p {
+        margin-bottom: 0px;
+        padding-right: 15%;
+        -webkit-margin-after: 0px;
+        font-size: 0.85em;
+        line-height: 1.8;
+    }
+
+    .grid > div:first-child > h3 {
+        padding-top: 15px;
+    }
+
 .grid > * {
     display: table;
     text-decoration: none;
@@ -216,18 +231,19 @@ button:hover {
     float: left;
     margin: 8px;
 }
-.grid {
 
+.grid {
 }
-.grid>*>img {
-	display: block;
-    vertical-align: middle;
-	margin: auto;
-	margin-top: 25%;
-    margin-bottom: 25%;
-    height: auto;
-    width: auto;
-}
+
+    .grid > * > img {
+        display: block;
+        vertical-align: middle;
+        margin: auto;
+        margin-top: 25%;
+        margin-bottom: 25%;
+        height: auto;
+        width: auto;
+    }
 
 .presentation {
     background-color: rgb(233,233,233);
@@ -250,34 +266,37 @@ button:hover {
     color: white;
 }
 
-.description a {
-    width: 120px;
-    border-radius: 5px;
-    background-color: white;
-    text-align: center;
-    padding: 10px;
-    color: black;
-    font-family: "efframedium";
-}
+    .description a {
+        width: 120px;
+        border-radius: 5px;
+        background-color: white;
+        text-align: center;
+        padding: 10px;
+        color: black;
+        font-family: "efframedium";
+    }
 
-.description p {
-    font-family: "effralight";
-    font-size: 1.1em;
-    line-height: 1;
-}
+    .description p {
+        font-family: "effralight";
+        font-size: 1.1em;
+        line-height: 1;
+    }
 
 .half {
     width: 50%;
     height: 100%;
 }
+
 .third {
     width: 40%;
     height: 100%;
 }
+
 .twothirds {
     width: 60%;
     height: 100%;
 }
+
 .ls {
     float: left;
 }
@@ -285,6 +304,7 @@ button:hover {
 .rs {
     float: right;
 }
+
 .contact {
     background-color: rgb(238, 238, 238);
     overflow: hidden;
@@ -308,8 +328,8 @@ button:hover {
 }
 
 .footer {
-	padding: 10px 0;
-	background-color: #d8d8d8;
+    padding: 10px 0;
+    background-color: #d8d8d8;
 }
 
 .footer-content {
@@ -317,19 +337,21 @@ button:hover {
     padding-bottom: 2.5%;
 }
 
-.fltrt {  
-	float: right;
-	margin-left: 8px;
+.fltrt {
+    float: right;
+    margin-left: 8px;
 }
-.fltlft { 
-	float: left;
-	margin-right: 8px;
+
+.fltlft {
+    float: left;
+    margin-right: 8px;
 }
-.clearfloat { 
-	clear:both;
-	height:0;
-	font-size: 1px;
-	line-height: 0px;
+
+.clearfloat {
+    clear: both;
+    height: 0;
+    font-size: 1px;
+    line-height: 0px;
 }
 
 .btn {
@@ -353,6 +375,7 @@ button:hover {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .textbox {
     font-family: "effraregular";
     height: 5%;
@@ -362,6 +385,7 @@ button:hover {
     border-style: none;
     border: 2px solid #D8D8D8;
 }
+
 .messagebox {
     font-family: "effraregular";
     height: 40%;
