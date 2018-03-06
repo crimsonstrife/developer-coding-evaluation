@@ -74,7 +74,7 @@
         overflow: visible;
         z-index: 0;
         display: flex;
-        flex-flow: wrap;
+        flex-flow: column;
         padding-left: 1%;
     }
 
@@ -91,8 +91,7 @@
         border: 1px solid rgba(128, 128, 128, 0.20);
         border-radius: 2px;
         width: 94%;
-        min-width: 300px;
-        height: 30%;
+        height: auto;
         float: left;
         margin: 8px;
     }
@@ -215,6 +214,7 @@
         text-align: center;
         margin-left: auto;
         margin-right: auto;
+        margin-top: 10%;
     }
 
     #contact-btn {
@@ -234,7 +234,6 @@
         margin: 0 auto;
         height: 100%;
         display: flex;
-        flex-flow: wrap;
         flex-direction: column;
         margin-bottom: 15%;
     }
@@ -267,8 +266,6 @@
         display: flex;
         float: left;
         padding-left: 40%;
-        margin-left: auto;
-        margin-right: auto;
     }
 
     .footer-content {
@@ -296,6 +293,7 @@
 
     #wrapper-reverse {
         flex-direction: column-reverse;
+        flex-flow: column-reverse;
     }
 
     #align-center {
