@@ -49,22 +49,21 @@
 
 #fifththird {
     background-color: rgb(49, 62, 76);
-    max-height: 578px;
-    height: 500px;
     color: white;
 }
 
 #ft-img {
-    max-height: 600px;
-    width: auto;
+    height: auto;
+    width: 130%;
     margin-top: 8%;
+    margin-bottom: -25%;
+    margin-left: -20%;
 }
 
 #background-ft {
     background-image: url(../images/pic-fifththird-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 578px;
     width: 100%;
 }
 
@@ -173,4 +172,12 @@
     color: rgb(5, 134, 211);
     font-family: 'effrabold';
     padding-top: 10px;
+}
+
+#wrapper-reverse {
+    flex-direction: unset;
+}
+
+#align-center {
+
 }

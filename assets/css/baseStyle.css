@@ -166,17 +166,16 @@ button:hover {
 
 .clients {
     background-color: transparent;
-    height: 560px;
     max-width: 100%;
     overflow: visible;
     z-index: 0;
     display: flex;
     flex-flow: wrap;
     padding-left: 5%;
+    margin-bottom: 2.5%;
 }
 .clients .grid {
     display: flex;
-    width: 100%;
 }
 .grid > div:first-child {
     background-color: #383d49;
@@ -248,7 +247,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     padding: 130px 0 0 50px;
-    width: 320px;
     color: white;
 }
 
@@ -306,7 +304,6 @@ button:hover {
 .footer {
 	padding: 10px 0;
 	background-color: #d8d8d8;
-    height: 70px;
 }
 
 .footer-content {
@@ -336,6 +333,7 @@ button:hover {
     font-size: 1em;
     position: relative;
     margin: 2.5% auto;
+    padding: 5% 10%;
     overflow: hidden;
     border-width: 0;
     outline: none;
