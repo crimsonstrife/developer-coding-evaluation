@@ -94,11 +94,11 @@
     font-family: "effrabold";
 }
 
-#gojo-btn span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-}
+    #gojo-btn span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+    }
 
 #ft-btn {
     border-radius: 4px;
@@ -110,12 +110,12 @@
     font-family: "effrabold";
 }
 
-#ft-btn span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    color: black;
-}
+    #ft-btn span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        color: black;
+    }
 
 #chhn-btn {
     border-radius: 4px;
@@ -127,12 +127,12 @@
     font-family: "effrabold";
 }
 
-#chhn-btn span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    color: black;
-}
+    #chhn-btn span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        color: black;
+    }
 
 #contact-btn {
     background-color: rgb(5, 134, 211);
@@ -146,11 +146,11 @@
     margin: 0px;
 }
 
-#contact-btn span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-}
+    #contact-btn span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+    }
 
 #map {
     overflow: hidden;
@@ -171,5 +171,4 @@
 }
 
 #align-center {
-
 }
